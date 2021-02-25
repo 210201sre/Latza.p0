@@ -1,0 +1,18 @@
+functional
+	add patient
+	add drug
+
+	get patient by name
+	get all patients
+	get drug by name
+
+	add med to patient list
+todo:
+	get patient med list
+	inc refil on drug 
+	dec refil on drug
+
+known buggs
+	the same med can be added to the same patient more than once
+
+
