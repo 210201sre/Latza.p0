@@ -31,9 +31,7 @@ private static Connection aConnection= null;
 		String url = System.getenv("DB_URL"); //"jdbc:postgresql://us-ohio-1-training.c0dgtxyjm9jm.us-east-2.rds.amazonaws.com:5432/postgres";
 		String username = System.getenv("DB_USERNAME");
 		String password = System.getenv("DB_PASSWORD");
-		//String url = "jdbc:postgresql://us-ohio-1-training.c0dgtxyjm9jm.us-east-2.rds.amazonaws.com:5432/postgres";
-		//String username = "root";
-		//String password = "Scipio32";
+
 		
 		try {
 			Class.forName("org.postgresql.Driver");
